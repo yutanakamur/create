@@ -1,0 +1,234 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ここからCSSを書いていきましょう */
+
+
+
+/* header ロゴ　ログイン*/
+
+
+header{
+  background-image:url(https://prog-8.com/images/html/advanced/top.png);
+  background-size:cover;
+  text-align:center;
+  padding:180px 0px 100px;
+  position:relative;
+}
+
+#barcover{
+  width:100%;
+  position:absolute;
+  top:0px;
+  background-color:rgba(34,49,52,0.9);
+  
+}
+#bar{
+  width:1170px;
+  display:flex;
+  justify-content:space-between;
+  height:65px;
+  margin:0 auto;
+}
+#bar img{
+  display:inline-block;
+  width:124px;
+  margin:20px 0px;
+}
+#bar p{
+    background-color:rgba(255,255,255,0.3) ;
+
+}
+a:hover{
+  opacity:1.0;
+}
+#login{
+  display:inline;
+  padding:25px 20px;
+  line-height:65px;
+  color:white;
+}
+#login :hover{
+  opacity:0.8;
+}
+
+
+/* header　写真　登録 */
+.header_sentence{
+  color:white;
+  opacity:0.7;
+}
+#copy{
+  font-size:45px;
+  font-weight:bold;
+  letter-spacing:5px;
+}
+
+header a{
+  display:inline-block;
+  color:white;
+  opacity:0.8;
+  border-radius:4px;
+  cursor: pointer;
+  padding:8px 24px;
+  
+}
+/*button:hover のこと*/
+a:hover{
+  opacity:1.0;
+}
+#new{
+  background-color:#239b76;
+  margin-top:30px;
+  margin-bottom:15px;
+}
+#facebook{
+  background-color:#3b5998;
+  margin-top:15px;
+  margin-right:10px;
+}
+#twitter{
+  background-color:#55acee;
+  margin-top:15px;
+}
+
+/* section disc */
+#disc{
+  background-color:#f7f7f7;
+}
+#disc_child{
+  width: 768px;
+  margin:auto;
+}
+#disc #catch{
+  padding-top:80px;
+  padding-bottom:50px;
+  font-size:24px;
+  font-weight:normal;
+  text-align:center;
+  color:#5f5d60;
+}
+.flex{
+  display:flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.lang{
+  width:25%;
+  display:inline-block;
+  text-align:center;
+  padding: 0px 2.5%;
+  position:relative;
+  
+}
+.lang img{
+  
+  margin-bottom:15px;
+}
+.lang p{
+  font-size:13px;
+  color:#b3aeb5;
+}
+.lang pre{
+  position:absolute;
+  top:50%;
+  z-index:100000;
+  /*画像の中央に文字を配置*/
+  position: absolute;
+  top: 32%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+  color:white;
+  font-size:16px;
+}
+
+/*さあ、あなたもからボタンまで*/
+#lets #lets_div{
+  margin:80px auto 50px;
+  
+}
+
+#lets h4,p{
+  text-align:center;
+}
+#lets h4{
+  font-size:24px;
+  font-weight:normal;
+  color:#5f5d60;
+}
+#lets p{
+  font-size:18.72;
+  font-weight:normal;
+  color:#5f5d60;
+}
+
+#button_cover{
+  text-align:center;
+  margin-bottom:80px;
+}
+
+#startbutton{
+  padding:15px 40px;
+  background-color:#5dca88;
+  cursor: pointer;
+  box-shadow: 0px 7px #1a7940;
+  color:#ffffff;
+  opacity: 0.8;
+}
+
+
+/*footer*/
+footer{
+  color:#b3aeb5;
+  border-top:solid 1px #eee;
+}
+#content_cover{
+  width:1170px;
+}
+#contents{
+  margin:30px auto;
+  
+}
+
+footer p{
+ text-align:left;
+ font-size:13px;
+}
+footer img{
+  width:124px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
