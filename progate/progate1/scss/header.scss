@@ -1,0 +1,31 @@
+header{
+    height:90px;
+    background-color:#26d0c9;
+    color:#fff;
+    text-align: center;
+
+    span{
+        font-size:36px;
+        vertical-align:middle;
+        padding:0px 40px;
+    }
+
+    ul{
+        display:inline-block;
+
+        li{
+            display:inline-block;
+            margin:33px 20px;
+
+            a{
+                color: white;
+                opacity:0.9;
+                text-decoration: none;
+
+                &:hover{
+                    opacity: 1.0;
+                }
+            }
+        }
+    }
+}
