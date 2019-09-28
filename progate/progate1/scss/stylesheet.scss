@@ -11,24 +11,6 @@ li {
   list-style: none;
 }
 
-header{
-  height:90px;
-  background-color:#26d0c9;
-  color:#fff;
-  ul{
-    display:inline-block;
-    li{
-      display:inline-block;
-      margin:33px 20px;
-    }
-  }  
-} 
-header span{
-font-size:36px;
-vertical-align:middle;
-padding:0px 40px;
-}
-
 #main{
  margin:100px 80px; 
  text-align: center;
@@ -58,11 +40,9 @@ hr{
 .lesson:not(last-child){
   margin-right:40px;
 }
-
 .container{
   display:flex;
 }
-
 section{
   position:relative;
 }
