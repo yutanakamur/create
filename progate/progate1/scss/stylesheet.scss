@@ -1,0 +1,108 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div{
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+header{
+  height:90px;
+  background-color:#26d0c9;
+  color:#fff;
+  ul{
+    display:inline-block;
+    li{
+      display:inline-block;
+      margin:33px 20px;
+    }
+  }  
+} 
+header span{
+font-size:36px;
+vertical-align:middle;
+padding:0px 40px;
+}
+
+#main{
+ margin:100px 80px; 
+ text-align: center;
+}
+h1{
+  font-size:140px;
+}
+h2{
+  font-size:60px;
+}
+h3{
+  font-size:28px;
+  margin:100px 0px 15px;
+}
+hr{
+  border-top: 2px solid #dee7ec;
+  margin-bottom:50px;
+}
+#red{
+  color:#ff4a4a;
+}
+.container .lesson span{
+  font-size:24px;
+  display:block;
+  margin:30px 0px;
+}
+.lesson:not(last-child){
+  margin-right:40px;
+}
+
+.container{
+  display:flex;
+}
+
+section{
+  position:relative;
+}
+form{
+  width:400px;
+}
+label,#label{
+  display:block;
+  margin-bottom:10px;
+}
+.input{
+ margin-bottom:30px; 
+ width:400px;
+ padding:20px;
+ border:solid #dee7ec;
+}
+#mail{
+  height:10px;
+}
+#submit{
+  font-size:18px;
+  width:400px;
+  color:#889eab;
+  background-color:#dee7ec;
+}
+
+footer{
+  background-color:#2f5167;
+  color:#fff;
+  height:120px;
+  padding:40px;
+  position:relative;
+  bottom:10px;
+}
+footer span{
+  font-size:32px;
+}
+footer ul{
+  float:right;
+}
+footer li{
+  margin-bottom:20px;
+}
